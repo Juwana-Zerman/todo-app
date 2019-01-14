@@ -71,7 +71,8 @@ export class TodoListComponent implements OnInit {
       title: this.todoTitle,
       completed: false,
       editing: false
-    })
+    });
+
 
     this.todoTitle = '';
     this.idForTodo++;
